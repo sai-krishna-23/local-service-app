@@ -1,13 +1,9 @@
-import Navbar from "./components/Navbar";
+import Login from "./pages/Login";
 
 function App() {
   return (
     <div>
-      <Navbar />
-
-      <h1>Find Nearby Electricians</h1>
-
-      <button>Book Service</button>
+      <Login />
     </div>
   );
 }
